@@ -1,3 +1,4 @@
+import 'package:flut_micro_commons_design_system/inputs/inputs.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -95,6 +96,9 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            DSTextFormField.currency(
+              keyboardType: TextInputType.number,
+            ),
             const Text(
               'You have pushed the button this many times:',
             ),

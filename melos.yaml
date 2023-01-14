@@ -1,0 +1,27 @@
+name: liberpass_app
+
+packages:
+  - ../flut_micro_app_initial/**
+  - ../flut_micro_app_landing/**
+  - ../flut_micro_commons_biometrics/**
+  - ../flut_micro_commons_dependencies/**
+  - ../flut_micro_commons_design_system/**
+  - ../flut_micro_commons_shared/**
+  - ./**
+
+scripts:
+  pg: melos exec -- "fvm flutter pub get"
+  test:selective_unit_test:
+    run: melos exec --dir-exists="test" --fail-fast -- flutter test --no-pub --coverage
+    description: Run Flutter tests for a specific package in this project.
+    select-package:
+      flutter: true
+      dir-exists: test
+
+  test:
+    run: melos run test:selective_unit_test --no-select
+    description: Run all Flutter tests in this project.
+
+  analyze:
+    run: melos exec -- flutter analyze .
+    description: Run `dart analyze` in all packages.
