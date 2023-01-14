@@ -1,3 +1,4 @@
+import 'package:flut_micro_commons_dependencies/flut_micro_commons_dependencies.dart';
 import 'package:flut_micro_commons_design_system/flut_micro_commons_design_system.dart';
 import 'package:flutter/material.dart';
 
@@ -29,6 +30,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
   void _incrementCounter() {
+    Modular.to.navigate('/home');
     setState(() {
       _counter++;
     });
