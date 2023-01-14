@@ -19,9 +19,6 @@ dependencies:
 dependencies_overrides:
   flut_micro_commons_biometrics:
     git: https://github.com/cruvinelrv/flut_micro_commons_biometrics.git
-  flut_micro_commons_design_system:
-    url: https://github.com/cruvinelrv/flut_micro_commons_design_system.git
-    path: ../flut_micro_commons_design_system/flut_micro_commons_design_system.dart
   flut_micro_commons_shared:
     git: https://github.com/cruvinelrv/flut_micro_commons_shared.git
   flut_micro_commons_dependencies:
