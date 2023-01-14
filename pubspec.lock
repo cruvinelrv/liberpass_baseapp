@@ -36,6 +36,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.16.0"
+  cupertino_icons:
+    dependency: transitive
+    description:
+      name: cupertino_icons
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.5"
   fake_async:
     dependency: transitive
     description:
@@ -68,6 +75,15 @@ packages:
       ref: HEAD
       resolved-ref: ba63912b209ae436fe594a363a51746e55718f4a
       url: "https://github.com/cruvinelrv/flut_micro_commons_biometrics.git"
+    source: git
+    version: "0.0.1"
+  flut_micro_commons_dependencies:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: "61d2042f01d2cb9ab6ee3b487f367e52cc6f1e19"
+      url: "https://github.com/cruvinelrv/flut_micro_commons_dependencies.git"
     source: git
     version: "0.0.1"
   flut_micro_commons_design_system:

@@ -19,11 +19,11 @@ dependencies:
     git: https://github.com/cruvinelrv/flut_micro_commons_biometrics.git
   flut_micro_commons_shared:
     git: https://github.com/cruvinelrv/flut_micro_commons_shared.git
+  flut_micro_commons_dependencies:
+    git: https://github.com/cruvinelrv/flut_micro_commons_dependencies.git
 
 dependencies_overrides:
   
-  flut_micro_commons_dependencies:
-    git: https://github.com/cruvinelrv/flut_micro_commons_dependencies.git
   
 
 dev_dependencies:
