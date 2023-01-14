@@ -45,7 +45,6 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             DSTextFormField.currency(
-              label: 'Valor',
               keyboardType: TextInputType.number,
             ),
             const Text(

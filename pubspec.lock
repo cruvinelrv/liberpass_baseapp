@@ -61,6 +61,15 @@ packages:
       url: "https://github.com/cruvinelrv/flut_micro_app_landing.git"
     source: git
     version: "0.0.1"
+  flut_micro_commons_biometrics:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: ba63912b209ae436fe594a363a51746e55718f4a
+      url: "https://github.com/cruvinelrv/flut_micro_commons_biometrics.git"
+    source: git
+    version: "0.0.1"
   flut_micro_commons_design_system:
     dependency: "direct main"
     description:
@@ -68,6 +77,15 @@ packages:
       ref: HEAD
       resolved-ref: d3d3cbb95f3ad885853838e1bde49c600710a78c
       url: "https://github.com/cruvinelrv/flut_micro_commons_design_system.git"
+    source: git
+    version: "0.0.1"
+  flut_micro_commons_shared:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: "703dd8fa646c0cd0285d4f47bd4fe6117413e3f3"
+      url: "https://github.com/cruvinelrv/flut_micro_commons_shared.git"
     source: git
     version: "0.0.1"
   flutter:
