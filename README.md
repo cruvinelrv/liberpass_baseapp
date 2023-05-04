@@ -1,6 +1,6 @@
 # liberpass_app
 
-A new Flutter project.
+Suíte de aplicativos com soluções para a vida digital.
 
 ## Getting Started
 
