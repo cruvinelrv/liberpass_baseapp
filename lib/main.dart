@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:liberpass_app/home.dart';
+import 'package:liberpass_baseapp/home.dart';
 
 void main() {
   runApp(const LiberPass());

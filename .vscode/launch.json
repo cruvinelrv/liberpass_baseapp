@@ -5,19 +5,19 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "liberpass_app",
+            "name": "liberpass_baseapp",
             "request": "launch",
             "type": "dart",
             "program": "lib/main.dart"
         },
         {
-            "name": "liberpass_app (profile mode)",
+            "name": "liberpass_baseapp (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "liberpass_app (release mode)",
+            "name": "liberpass_baseapp (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"

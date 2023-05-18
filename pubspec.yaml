@@ -1,4 +1,4 @@
-name: liberpass_app
+name: liberpass_baseapp
 description: A new Flutter project.
 publish_to: 'none' 
 version: 1.0.0+1
@@ -9,18 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  lpass_micro_app_initial:
-    git: https://github.com/cruvinelrv/lpass_micro_app_initial.git
-  lpass_micro_app_landing:
-    git: https://github.com/cruvinelrv/lpass_micro_app_landing.git
-  lpass_micro_commons_design_system:
-    git: https://github.com/cruvinelrv/lpass_micro_commons_design_system.git
-  lpass_micro_commons_biometrics:
-    git: https://github.com/cruvinelrv/lpass_micro_commons_biometrics.git
-  lpass_micro_commons_shared:
-    git: https://github.com/cruvinelrv/lpass_micro_commons_shared.git
-  lpass_micro_commons_dependencies:
-    git: https://github.com/cruvinelrv/lpass_micro_commons_dependencies.git
+  
 
 dev_dependencies:
   flutter_test:
